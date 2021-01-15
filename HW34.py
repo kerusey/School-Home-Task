@@ -7,7 +7,6 @@ cashe.sort(key = lambda item: list(item.keys())[0])
 majorNumberDivisors = list(cashe[-3].keys())[0]
 majorNumber = cashe[-3][majorNumberDivisors]
 
-
 minorNumberDivisors = list(cashe[-1].keys())[0]
 minorNumber = cashe[-1][minorNumberDivisors]
 
